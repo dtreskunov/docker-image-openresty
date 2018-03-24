@@ -1,6 +1,6 @@
 # openresty-ext
 
-Docker image containing [OpenResty](https://github.com/openresty/lua-nginx-module) with:
+Docker image ([link](https://hub.docker.com/r/dtreskunov/openresty-ext/) to Docker Hub) containing [OpenResty](https://github.com/openresty/lua-nginx-module) with:
 
 * [d-led/pugilua](https://github.com/d-led/pugilua): Lua bindings
 for the [zeux/pugixml](https://github.com/zeux/pugixml) XML library
