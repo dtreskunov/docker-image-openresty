@@ -8,6 +8,7 @@ for the [zeux/pugixml](https://github.com/zeux/pugixml) XML library
 Lua bindings for the
 [google/gumbo-parser](https://github.com/google/gumbo-parser) HTML
 library
+* [SkyLothar/lua-resty-jwt](https://github.com/SkyLothar/lua-resty-jwt): Lua JWT library (JSON Web Tokens)
 
 This image allows creating high-performance reverse proxies that
 are able to parse and modify HTML and XML content.

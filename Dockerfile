@@ -27,6 +27,7 @@ RUN sed -i -e 's/-llua5.1/-lluajit-5.1/g' Build/linux/gmake/pugilua.make && \
     LDFLAGS=-L/usr/local/openresty/luajit/lib INCLUDES=-I/usr/local/openresty/luajit/include/luajit-2.1 make -C Build/linux/gmake config=release && \
     cp bin/linux/gmake/pugilua.so /usr/local/openresty/lualib
 
+RUN luarocks install lua-resty-jwt
 ###
 
 FROM openresty/openresty:alpine
