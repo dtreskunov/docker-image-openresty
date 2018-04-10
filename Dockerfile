@@ -29,6 +29,7 @@ RUN sed -i -e 's/-llua5.1/-lluajit-5.1/g' Build/linux/gmake/pugilua.make && \
 
 RUN luarocks install lua-resty-jwt
 RUN luarocks install luacov
+RUN luarocks install luacov-cobertura
 ###
 
 FROM openresty/openresty:alpine
